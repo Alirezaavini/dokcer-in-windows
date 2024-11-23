@@ -1,0 +1,9 @@
+Docker Notices:
+
+1- we have to remove containers in production
+	It will remover just existed containers
+	for removing all of existed containers user: docker container prune
+
+2- for troubleshooting we have to execute command inside of containers
+
+	

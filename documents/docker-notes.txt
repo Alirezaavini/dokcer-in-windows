@@ -1,0 +1,28 @@
+Docker:
+Commands:
+0- get image from docker hub
+	=> docker pull image_name
+1- run one image
+	=> docker run image_name 
+2- run command in container
+	=> docker run image_name command
+3- get current containers
+	=> docker ps
+4- get docker images
+	=> docker images
+5- get all docker containers:
+	=> docker ps -a
+6- remove one container by container id
+	=> docker rm container_id
+7- get help
+	=> docker run --help
+8- connect to one image
+	=> docker run -it image
+9- remove container automatikly when it exits
+	=> docker run --rm container_name
+10- remove all stopped container
+	=> docker container prune
+11- connect to one container and run command inside of that:
+	=> docker exec -it container_name command
+	example: docker exec -it romantic_galileo redis-cli  
+12- 
